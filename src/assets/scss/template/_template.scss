@@ -1,0 +1,180 @@
+html,
+body,
+.body {
+  background: $body-background;
+  background-color: $body-background;
+}
+
+.header {
+  background: $body-background;
+  background-color: $body-background;
+
+  .columns {
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  img {
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Small only */
+  @media screen and (max-width: 596px) {
+    .logo {
+      width: 150px;
+    }
+  }
+}
+
+.body {
+
+  .columns {
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+.sub-footer {
+
+  &>tbody>tr>th {
+    padding-bottom: 10px !important;
+    padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  th {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .call-to-action {
+    font-size: 14px;
+    color: #999999;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+  }
+
+  /* Small only */
+  @media screen and (max-width: 596px) {
+    .call-to-action {
+      font-size: 15px;
+    }
+  }
+}
+
+.store-logo {
+  padding-left: 0;
+  padding-right: 0;
+
+  @media screen and (min-width: 597px) {
+    &>tbody>tr>th>table>tbody>tr>th {
+      padding-right: 1.5px;
+      padding-left: 1.5px;
+    }
+
+    img {
+      width: 250px;
+    }
+  }
+
+  /* Small only */
+  @media screen and (max-width: 596px) {
+    &>tbody>tr>th>table>tbody>tr>.apps {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 120px;
+    }
+  }
+}
+
+.follow-us {
+  border-top: 1px solid #e8e8e8;
+  padding-bottom: 20px;
+
+  span {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+  }
+
+  @media screen and (max-width: 596px) {
+    span {
+      font-size: 15px;
+    }
+  }
+}
+
+.footer-social {
+  border-bottom: 1px solid #e8e8e8;
+
+  &>tbody>tr>th>table>tbody>tr>th {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  &>tbody>tr>th>table>tbody>tr>th>img {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    text-align: center;
+  }
+}
+
+.privacy {
+  p {
+    font-size: 10px;
+    color: #999999;
+    hyphens: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+}
+
+.terms {
+  p {
+    font-size: 10px;
+    color: #999999;
+    hyphens: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.store-trademarks {
+  p {
+    font-size: 10px;
+    color: #999999;
+    hyphens: none;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+
+.copyright {
+  p {
+    font-size: 10px;
+    color: #999999;
+    hyphens: none;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+}
